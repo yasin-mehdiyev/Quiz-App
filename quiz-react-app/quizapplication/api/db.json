@@ -1,0 +1,64 @@
+{
+  "quizData": [
+    {
+      "id": 1,
+      "question": "What is the Capital of Nijer-1?",
+      "options": [
+        "Abuja",
+        "Owerri",
+        "Enugu"
+      ],
+      "answer": "Abuja-5",
+      "score": "12",
+      "timeout": "50"
+    },
+    {
+      "id": 2,
+      "question": "What is the capital of India?",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Aba"
+      ],
+      "answer": "New Delhi",
+      "score": 4,
+      "timeout": 15
+    },
+    {
+      "id": 3,
+      "question": "What is the capital of Australia?",
+      "options": [
+        "Akokwa",
+        "Owerri",
+        "Sydney"
+      ],
+      "answer": "Sydney",
+      "score": "15",
+      "timeout": "35"
+    },
+    {
+      "id": 4,
+      "question": "What is the capital of Turkey?",
+      "options": [
+        "Rijadh",
+        "Ankara",
+        "Abakaliki"
+      ],
+      "answer": "Ankara",
+      "score": "15",
+      "timeout": "12"
+    },
+    {
+      "id": 5,
+      "question": "What is the capital of Syria?",
+      "options": [
+        "Syria",
+        "Damascus",
+        "Anambra"
+      ],
+      "answer": "Damascus",
+      "score": "13",
+      "timeout": 25
+    }
+  ]
+}
