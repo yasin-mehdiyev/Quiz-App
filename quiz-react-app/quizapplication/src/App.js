@@ -10,7 +10,8 @@ import Competition from './Components/Pages/Competition/Competition'
 import Quiz from './Components/Pages/Quiz/Quiz'
 import NotFound from './Components/Pages/NotFound/NotFound'
 import axios from 'axios'
-import EditQuiz from './Components/Quiz/EditQuiz'
+import EditQuiz from './Components/Quiz/Edit/EditQuiz'
+import AddQuiz from './Components/Quiz/Add/AddQuiz'
 
 const App = () => {
 
@@ -30,7 +31,8 @@ const App = () => {
                 <Route exact path="/" render={() => <Home/>} />
                 <Route path="/competition" render={() => <Competition/>} />
                 <Route path="/quiz" render={() => <Quiz quiz={quiz} data={getData} />} />
-                <Route path="/quizdata/edit/:id" render={() => <EditQuiz />} />
+                <Route path="/quizdata/add" render={() => <AddQuiz/>} />
+                <Route path="/quizdata/edit/:id" render={() => <EditQuiz/>} />
                 <Route render={() => <NotFound/>}/>
           </Switch>
       </React.Fragment>

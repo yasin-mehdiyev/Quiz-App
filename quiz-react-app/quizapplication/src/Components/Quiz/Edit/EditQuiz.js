@@ -10,8 +10,8 @@ const EditQuiz = () => {
         question:"",
         options:[],
         answer:"",
-        score: 0,
-        timeout: 0
+        score: "",
+        timeout: ""
     });
     
     const {id} = useParams();
