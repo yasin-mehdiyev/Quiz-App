@@ -10,7 +10,7 @@ const Quiz = ({quiz,data}) => {
     let baseURL='http://localhost:3000/quizData';
 
     useEffect(() => {
-        data();
+        data()
     }, []);
 
     const deleteHandler = async (id) =>{

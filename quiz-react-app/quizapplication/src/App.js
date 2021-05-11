@@ -21,15 +21,21 @@ const App = () => {
 
   const getData = async () => {
      let response = await axios.get(baseUrl);
-     setStatetQuiz(response.data.reverse());
+     setStatetQuiz(response.data);
   }
+
+  useEffect(() => {
+    getData();
+  }, [])
+
+  // console.log(quiz)
   
   return (
     <Router>
       <React.Fragment>
           <Switch>
                 <Route exact path="/" render={() => <Home/>} />
-                <Route path="/competition" render={() => <Competition/>} />
+                <Route path="/competition" render={() => <Competition allQuiz={quiz} allData={getData} />} />
                 <Route path="/quiz" render={() => <Quiz quiz={quiz} data={getData} />} />
                 <Route path="/quizdata/add" render={() => <AddQuiz/>} />
                 <Route path="/quizdata/edit/:id" render={() => <EditQuiz/>} />

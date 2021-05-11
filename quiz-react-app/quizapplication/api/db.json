@@ -13,18 +13,6 @@
       "timeout": 15
     },
     {
-      "id": 3,
-      "question": "What is the capital of Australia?",
-      "options": [
-        "Akokwa",
-        "Owerri",
-        "Sydney"
-      ],
-      "answer": "Sydney",
-      "score": "15",
-      "timeout": "35"
-    },
-    {
       "question": "What is the capital of Germany?",
       "options": [
         "Koln",
@@ -47,6 +35,30 @@
       "score": "2",
       "timeout": "20",
       "id": 6
+    },
+    {
+      "question": "What is the capital of Russia?",
+      "options": [
+        "Sankt-Peterburg",
+        "Sibir",
+        "Tiflis"
+      ],
+      "answer": "Sankt-Peterburg",
+      "score": "5",
+      "timeout": "30",
+      "id": 7
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "Monaco",
+        "Lille"
+      ],
+      "answer": "Paris",
+      "score": "5",
+      "timeout": "15",
+      "id": 8
     }
   ]
 }
