@@ -59,6 +59,42 @@
       "score": "5",
       "timeout": "15",
       "id": 8
+    },
+    {
+      "question": "What is the capital of İtaly?",
+      "options": [
+        "Torino",
+        "Roma",
+        "Atalanta"
+      ],
+      "answer": "Roma",
+      "score": "5",
+      "timeout": "25",
+      "id": 9
+    },
+    {
+      "question": "What is the capital of Georgia?",
+      "options": [
+        "Tiblisi",
+        "Batumi",
+        "Lagadekh"
+      ],
+      "answer": "Tiblisi",
+      "score": "7",
+      "timeout": "25",
+      "id": 10
+    },
+    {
+      "question": "What is the Capital of Nijer-12?",
+      "options": [
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": "11",
+      "score": "3",
+      "timeout": "13",
+      "id": 12
     }
   ]
 }

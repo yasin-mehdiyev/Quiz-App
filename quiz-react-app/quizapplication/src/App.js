@@ -27,8 +27,6 @@ const App = () => {
   useEffect(() => {
     getData();
   }, [])
-
-  // console.log(quiz)
   
   return (
     <Router>
